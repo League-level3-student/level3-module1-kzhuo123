@@ -20,7 +20,7 @@ public class _06_IPodShuffle {
 		 */
 		ArrayList<Song> song = new ArrayList<Song>();
 		song.add(new Song("demo.mp3"));
-		song.add()
+		
 	}
 	
 	public static void main(String[] args) {
