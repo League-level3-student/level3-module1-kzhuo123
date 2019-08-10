@@ -21,6 +21,15 @@ public class _01_IntroToStack {
 		String s1=JOptionPane.showInputDialog("Enter another number between 0 and 100" );
 		//4. Pop all the elements off of the Stack. Every time a double is popped that is
 		//   between the two numbers entered by the user, print it to the screen.
+		int i1= Integer.parseInt(s);
+		int i2= Integer.parseInt(s1);
+		
+		for (int i = 0; i < dub.size(); i++) {
+			double q=dub.pop();
+			if (q>=i1&&q<i2) {
+				System.out.println(q);
+			}
+		}
 		
 		
 		//   EXAMPLE:
