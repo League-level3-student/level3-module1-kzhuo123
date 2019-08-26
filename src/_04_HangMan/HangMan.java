@@ -14,7 +14,7 @@ public class HangMan implements KeyListener{
 JFrame frame=new JFrame();
 JPanel panel=new JPanel();
 JLabel label=new JLabel();
-int life=20;
+int life=10;
 Stack<String> words;
 	
 public static void main(String[] args) {
@@ -43,7 +43,7 @@ public void Setup() {
 
 	for (int i = 0; i < words.pop().length(); i++) {
 		label.setText(label.getText()+"_ ");
-	
+
 	}
 	frame.pack();
 }
